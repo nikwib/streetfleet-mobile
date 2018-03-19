@@ -1,13 +1,48 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
 
-export default class App extends React.Component {
+import React, { Component } from 'react';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View,
+  Image
+} from 'react-native';
+import DeviceInfo from 'react-native-device-info';
+import BackgroundGeolocation from "react-native-background-geolocation";
+
+const instructions = Platform.select({
+  ios: 'Press Cmd+R to reload,\n' +
+    'Cmd+D or shake for dev menu',
+  android: 'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
+});
+
+type Props = {};
+export default class App extends Component<Props> {
+  constructor (props) {
+    super(props);
+    this.state ={
+      test:'hey',
+    }
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <View style={styles.imageContainer}>
+          <Image
+          style={styles.image}
+          source={require('./logos/sf-v-logo.png')}
+          />
+        <View style={styles.textContainer}>
+          <Text>MAC:SDSDwefwDSF12312</Text>
+        </View>  
+        </View>
       </View>
     );
   }
@@ -16,8 +51,21 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
+  imageContainer: {
+    flex: 1,
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  image: {
+    resizeMode: 'contain',
+    width: 200
+  },
+  textContainer: {
+    flex: 1,
+    justifyContent: 'space-around'
+  } 
 });
