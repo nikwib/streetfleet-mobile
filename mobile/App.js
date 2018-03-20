@@ -12,8 +12,6 @@ import {
   View,
   Image
 } from 'react-native';
-import DeviceInfo from 'react-native-device-info';
-import BackgroundGeolocation from "react-native-background-geolocation";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -24,24 +22,20 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
-  constructor (props) {
-    super(props);
-    this.state ={
-      test:'hey',
-    }
-  }
-
   render() {
     return (
-      <View style={styles.container}>
+       <View style={styles.container}>
         <View style={styles.imageContainer}>
           <Image
           style={styles.image}
           source={require('./logos/sf-v-logo.png')}
           />
-        <View style={styles.textContainer}>
-          <Text>MAC:SDSDwefwDSF12312</Text>
         </View>  
+        <View style={styles.connected}>
+          <Text>Connected</Text>
+        </View>  
+        <View style={styles.textContainer}>
+          <Text>MAC:FD:4F:5A:54:D8</Text> 
         </View>
       </View>
     );
@@ -51,13 +45,15 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
+  connected: {
+    flex: 1,
+    justifyContent: 'space-around'
+  },
   imageContainer: {
     flex: 1,
-    justifyContent: 'space-around',
     alignItems: 'center',
   },
   image: {
@@ -65,7 +61,9 @@ const styles = StyleSheet.create({
     width: 200
   },
   textContainer: {
-    flex: 1,
-    justifyContent: 'space-around'
+    flex: 2,
+    justifyContent: 'space-around',
+    alignItems: 'center'
   } 
 });
+
