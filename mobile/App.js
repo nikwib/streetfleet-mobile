@@ -14,11 +14,27 @@ export default class App extends React.Component {
     };
 
     this.locationChanged = this.locationChanged.bind(this);
-
+    this.fetchFunction = this.fetchFunction.bind(this);
   }
 
   componentWillMount() {
     Location.watchPositionAsync(GEOLOCATION_OPTIONS, this.locationChanged);
+  }
+   
+  fetchFunction() {
+    fetch('http://88b961ba.ngrok.io/', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.strignify({
+        latitude:this.state.region.latitude,
+        longitude:this.state.region.longitude,
+        timestamp:34034034,
+        mac_address:'70-47'
+      })
+    })
   }
 
   locationChanged  = (location) => {
@@ -37,7 +53,7 @@ export default class App extends React.Component {
         style={{ flex: 0.5 }}
         showsUserLocation={true}
         region={this.state.region}
-      />    
+      />
     );
   }
 }
