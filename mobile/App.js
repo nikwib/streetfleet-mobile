@@ -6,54 +6,58 @@ import { Constants, Location, Permissions } from 'expo';
 const GEOLOCATION_OPTIONS = { enableHighAccuracy: true, timeout: 20000, maximum: 1000};
 
 export default class App extends React.Component {
-  constructor() {
+
+  constructor()  {
     super();
 
     this.state = {
-      location: { coords: {latitude: 0, longitude: 0}},
-    };
+      location: {coords:{latitude:0, longtitude:0}}
+    }
 
-    this.locationChanged = this.locationChanged.bind(this);
-    this.fetchFunction = this.fetchFunction.bind(this);
+    this.watchLocation();
+    
   }
 
-  componentWillMount() {
-    Location.watchPositionAsync(GEOLOCATION_OPTIONS, this.locationChanged);
-  }
-   
-  fetchFunction() {
-    fetch('http://88b961ba.ngrok.io/', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
+ getLocation = async () => {
+   const { status } = await Permissions.askAsync(Permissions.LOCATION);
+   if (status !== 'granted') {
+     this.setState({ errorMessage: 'Permission to access location was denied' });
+   }
+
+   const location = await Location.getCurrentPositionAsync({});
+   this.setState({
+     location,
+   });
+
+  };
+
+  postCoordinates() {
+    fetch('http://20b8ca03.ngrok.io/api/v1/vehicle/location',{
+      method:'POST',
+      headers:{
+        'Content-Type': 'application/json'
       },
-      body: JSON.strignify({
-        latitude:this.state.region.latitude,
-        longitude:this.state.region.longitude,
-        timestamp:34034034,
-        mac_address:'70-47'
+      body: JSON.stringify({
+        "time":Date.now(),
+        "latitude": this.state.location.coords.latitude,
+        "longitude": this.state.location.coords.longitude,
+        "mac_address":"A5-70-F5-4E-B6-55"
       })
     })
   }
 
-  locationChanged  = (location) => {
-    region = {
-      latitude: location.coords.latitude,
-      longitude: location.coords.longitude,
-      latitudeDelta: 0.1,
-      longitudeDelta: 0.05
-    },
-    this.setState({location, region})
-  }
+  watchLocation = () => {
+    //TODO: use watch coordinates method
+   this.setTimeoutId = setInterval( async () => {
+     await this.getLocation();
+     this.postCoordinates();
+     this.checkDistance();
+   }, 10000);
+  };
 
   render() {
     return (
-      <Expo.MapView
-        style={{ flex: 0.5 }}
-        showsUserLocation={true}
-        region={this.state.region}
-      />
+      <View><Text>{this.state.location.coords.latitude}</Text></View>
     );
   }
 }
