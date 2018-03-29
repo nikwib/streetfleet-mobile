@@ -3,8 +3,6 @@ import Expo from 'expo';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { Constants, Location, Permissions } from 'expo';
 
-const GEOLOCATION_OPTIONS = { enableHighAccuracy: true, timeout: 20000, maximum: 1000};
-
 export default class App extends React.Component {
 
   constructor()  {
@@ -13,9 +11,7 @@ export default class App extends React.Component {
     this.state = {
       location: {coords:{latitude:0, longtitude:0}}
     }
-
     this.watchLocation();
-    
   }
 
  getLocation = async () => {
@@ -25,6 +21,7 @@ export default class App extends React.Component {
    }
 
    const location = await Location.getCurrentPositionAsync({});
+   console.log(location);
    this.setState({
      location,
    });
@@ -32,7 +29,7 @@ export default class App extends React.Component {
   };
 
   postCoordinates() {
-    fetch('http://20b8ca03.ngrok.io/api/v1/vehicle/location',{
+    fetch('https://streetfleet-mainserver.herokuapp.com/api/v1/vehicle/location',{
       method:'POST',
       headers:{
         'Content-Type': 'application/json'
@@ -41,23 +38,27 @@ export default class App extends React.Component {
         "time":Date.now(),
         "latitude": this.state.location.coords.latitude,
         "longitude": this.state.location.coords.longitude,
-        "mac_address":"A5-70-F5-4E-B6-55"
+        "mac_address":Expo.Constants.deviceId
       })
+    })
+    .catch(e => {
+      console.log(e);
     })
   }
 
   watchLocation = () => {
+    console.log('hey yo');
     //TODO: use watch coordinates method
    this.setTimeoutId = setInterval( async () => {
+    console.log('inside');
      await this.getLocation();
      this.postCoordinates();
-     this.checkDistance();
-   }, 10000);
+   }, 2000);
   };
 
   render() {
     return (
-      <View><Text>{this.state.location.coords.latitude}</Text></View>
+      <View><Text>{Expo.Constants.deviceId}</Text></View>
     );
   }
 }
