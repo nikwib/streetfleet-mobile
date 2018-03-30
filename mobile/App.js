@@ -58,10 +58,16 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View><Text>{Expo.Constants.deviceId}</Text></View>
+      <View
+        style={{
+          flexDirection: 'row',
+          height: 100,
+          padding: 20,
+        }}><Text>{Expo.Constants.deviceId}</Text></View>
     );
   }
 }
+
 
 Expo.registerRootComponent(App);
 
