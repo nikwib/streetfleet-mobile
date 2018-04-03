@@ -12,6 +12,5 @@ This repo is a simulation of arduino. Its run on a mobile and send coordinates w
 
 ## Tech Stack
 
-. React-Native
-
-. Expo
+- React-Native
+- Expo
