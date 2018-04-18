@@ -1,5 +1,5 @@
 'use strict';
-
+// this command line script 
 const fs = require('fs');
 const loadJsonFile = require('load-json-file');
 const fetch = require('node-fetch')
@@ -25,7 +25,7 @@ const readTheFile = async (fileParam, macParam) => {
     }
     if (data && data.msgs) db.msgs = data.msgs; // what is this?
 
-    // console.log('this is data from fs.readfile (data):  ', data);
+    console.log('this is data from fs.readfile (data):  ', data);
     // start the loop at different element each time.
     data.locations.slice(randLessThan300).forEach( ping => {
       postCoordinates(ping)
