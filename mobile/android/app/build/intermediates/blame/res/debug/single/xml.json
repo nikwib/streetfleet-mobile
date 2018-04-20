@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/res/merged/debug/xml/tslocationmanager_file_provider_path.xml",
+        "source": "/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.transistorsoft/tslocationmanager/2.12.11/res/xml/tslocationmanager_file_provider_path.xml"
+    },
+    {
+        "merged": "/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.2/res/xml/preferences.xml"
+    }
+]

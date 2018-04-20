@@ -1,73 +1,64 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
 import React, { Component } from 'react';
-import Expo from 'expo';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-import { Constants, Location, Permissions } from 'expo';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+import DeviceInfo from 'react-native-device-info';
 
-export default class App extends React.Component {
+const instructions = Platform.select({
+  ios: 'Press Cmd+R to reload,\n' +
+    'Cmd+D or shake for dev menu',
+  android: 'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
+});
 
-  constructor()  {
+type Props = {};
+export default class App extends Component<Props> {
+  constructor() {
     super();
-
-    this.state = {
-      location: {coords:{latitude:0, longtitude:0}}
+    this.state ={
+      mac:'',
+      lat:'',
+      long:''
     }
-    this.watchLocation();
-  }
-
- getLocation = async () => {
-   const { status } = await Permissions.askAsync(Permissions.LOCATION);
-   if (status !== 'granted') {
-     this.setState({ errorMessage: 'Permission to access location was denied' });
-   }
-
-   const location = await Location.getCurrentPositionAsync({});
-   console.log(location);
-   this.setState({
-     location,
-   });
-
-  };
-
-  postCoordinates() {
-    fetch('https://streetfleet-mainserver.herokuapp.com/api/v1/vehicle/location',{
-      method:'POST',
-      headers:{
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        "time":Date.now(),
-        "latitude": this.state.location.coords.latitude,
-        "longitude": this.state.location.coords.longitude,
-        "mac_address":Expo.Constants.deviceId
-      })
-    })
-    .catch(e => {
-      console.log(e);
+    DeviceInfo.getMACAddress().then(mac => {
+      this.setState({mac:mac});
     })
   }
-
-  watchLocation = () => {
-    console.log('hey yo');
-    //TODO: use watch coordinates method
-   this.setTimeoutId = setInterval( async () => {
-    console.log('inside');
-     await this.getLocation();
-     this.postCoordinates();
-   }, 2000);
-  };
-
   render() {
     return (
-      <View
-        style={{
-          flexDirection: 'row',
-          height: 100,
-          padding: 20,
-        }}><Text>{Expo.Constants.deviceId}</Text></View>
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+          {this.state.mac}
+        </Text>
+      </View>
     );
   }
 }
 
-
-Expo.registerRootComponent(App);
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});
