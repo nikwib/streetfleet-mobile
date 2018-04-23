@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_72ec356dc6fe4f69ad88008515b876824e98e73a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_1202323dd7adbc25dd93fc7f42466c73280082f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -57,12 +75,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_e7647a9971f76ace2b72239fc16bdcbb25e80df2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_86d2aa6d44ddb9e9cc94fc134c2167e913dad044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/mobile/react-native-background-fetch/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9e3026378d10df03b89bcff67d84247b20af18c6">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/mobile-react-native-background-fetch-unspecified_e56f5ffeaeac83e5ce15c10b1e0fde0449ff830d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,6 +120,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_594879e353b420bc0e9f53661788e5e9956e8e45.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -93,12 +138,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.github.tony19/logback-android/1.1.1-9/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_594879e353b420bc0e9f53661788e5e9956e8e45.jar" />
+        sha1="1f4579f70d514509977ae76be02260ccb58bff5f">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.github.tony19-logback-android-1.1.1-9_9b8696ff92ce81ad2a51a3d7b9e2b9e7932245b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.intentfilter/android-permissions/0.1.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d017be0e8d084dbf49feb46382b972f390fcab74">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.intentfilter-android-permissions-0.1.6_a7567c30f35a1705636466cf980df3d6e3d66ed7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,6 +174,51 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_f4e506b35f9d37133a0044c0be4e98afbdf13677.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.8.0_f321442b8c77577988ea29a3ca92200eae1d023e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.2/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_1b4854d1b1f9da7c09785590234e705658b735ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f17107e2fe04a7255e1438dc17bc62f50cd8dd05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_ffd60e952924812c9ebbd5c044ecd7c44a2a8066.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -138,12 +237,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_e38abe267d319d9d3d3e12617448ae7efc3e9d36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/mobile/react-native-device-info/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="95ecfa729ee28ac21f520d9c422c62565999caa5">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/mobile-react-native-device-info-unspecified_5e3712484a329a635a46809d32d10533aff9e647.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5b9ca1b619760ea3c5ed10da3795e3a894472bd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.github.tony19/logback-android/1.1.1-9/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1f4579f70d514509977ae76be02260ccb58bff5f">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.github.tony19-logback-android-1.1.1-9_42f3f0544ae10bdb5ce0ae9d28e09aecc91656ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.transistorsoft/tsbackgroundfetch/0.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="346d3de9f113614b94aec80ec8b1d0eb5000eff8">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.transistorsoft-tsbackgroundfetch-0.2.0_df44cfa0c0aa7030687b345d7fedd61210b05b06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.transistorsoft/tslocationmanager/2.12.11/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ce34415646111003b83ec2983f6daa530b202efd">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.transistorsoft-tslocationmanager-2.12.11_3f26be6321043ed6719bdf003de2f8359e01462f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -171,6 +315,15 @@
         revision="23.0.1"
         sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.8.0_20d8e9384a8c3424e210bc0d557637ef141813bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2f1c6a53b3d1bda2fed04f6d3cb322e6e5c41c49.jar" />
     </item>
     <item
         is-multidex="false"
@@ -228,12 +381,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b7dbd963f54ff7b600c647d14ca381f110d9c9a">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-11.8.0_154a78f31b595802b8a8b33abea7d21aed1076c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.transistorsoft/tslocationmanager/2.12.11/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="ce34415646111003b83ec2983f6daa530b202efd">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.transistorsoft-tslocationmanager-2.12.11_60bd047e4db0e9848f0cda37e42d55d59cb439f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_d7ed4dcb60357364964cbdf20b85e4aa4384c548.jar" />
     </item>
     <item
         is-multidex="false"
@@ -264,6 +435,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_904046e6f645501d64c8f99522e1bcb624c65d4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_467738ffe4eb66a0347c26604d2a03e082b97d7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/mobile/react-native-background-geolocation/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -279,6 +468,24 @@
         revision="23.0.1"
         sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_34b63d0eb6aa8bda712c5859f6223f771d10642e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/mobile/react-native-background-geolocation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e202f76ccd6e29a8c15e425bd73b0489536062f6">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/mobile-react-native-background-geolocation-unspecified_c94410d877e71d81636606c0340db5233d7daa4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe3a72bee9f9eda45a5940a278fd9c1979b14a37">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-11.8.0_58ecfc4d7fd584b9fff39011e6d5a7d321a3bd34.jar" />
     </item>
     <item
         is-multidex="false"
@@ -300,6 +507,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_cf4cd64713ad90945fb8d717445670a3c1d638ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -309,12 +525,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_8eadd8a324a7a9789bbf718123b0cd4ede29695d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c61959df5c002ecfac372df75b06fc90848878fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_79d09eddfa7d58a0d5249e72a9ae95f3332aa62d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -345,15 +579,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_4db80f13988563ccca198c99a5224ed77300617d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar"
         jumboMode="false"
         optimize="true"
@@ -363,12 +588,66 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_4db80f13988563ccca198c99a5224ed77300617d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mpourbasililk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e">
         <dex dex="/home/mpourbasililk/Documents/cw/mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-3.10.0_49767bfe414e62199ebdfd680909dc3e6fcf2c83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c3f29cb56a35ef62bb2b789f5cdbd6fce7724d4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e9d3a3d3a781fe8fe55b743c397ae7f097c21b0">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.2_067a00c4e39009f5de4dfe83f279b21052d3d07d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.github.tony19/apktool-lib/1.4.4-5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d932076eb0135371e07b32648037810c41bbf81e">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.github.tony19-apktool-lib-1.4.4-5_32983053aa9412e42d3235a935ae61c5bf6cbaf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_a6053f52338d2f3097b48e1936ba26f37fe4cc27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_55cb5b7cb16ee4dbc1eef18fff13377097f9c224.jar" />
     </item>
 
 </items>

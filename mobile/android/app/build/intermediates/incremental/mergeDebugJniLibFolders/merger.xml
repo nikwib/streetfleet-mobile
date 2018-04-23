@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/mpourbasililk/Documents/cw/mobile/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/mpourbasililk/Documents/cw/mobile/android/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/src/debug/jniLibs"/></dataSet></merger>

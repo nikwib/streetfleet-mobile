@@ -50,7 +50,6 @@ postCoordinates() {
 }
 
   getLocation = async () => {
-  test++
   const status = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION);
   console.log('passed');
   if (status !== PermissionsAndroid.RESULTS.GRANTED) {
@@ -89,7 +88,6 @@ postCoordinates() {
         </Text>
         <Text>
           longitude:{this.state.location.coords.longitude}
-          test:{this.state.test}
         </Text>
       </View>
     );
