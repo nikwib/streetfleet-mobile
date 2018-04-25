@@ -31,6 +31,55 @@ export default class App extends Component<Props> {
   this.watchLocation();
 }
 
+componentWillMount() {
+  console.log('hey background');
+  BackgroundGeolocation.on('location', this.onLocation, this.onError);
+
+  // This handler fires when movement states changes (stationary->moving; moving->stationary)
+  BackgroundGeolocation.on('motionchange', this.onMotionChange);
+
+  // This event fires when a change in motion activity is detected
+  BackgroundGeolocation.on('activitychange', this.onActivityChange);
+
+  // This event fires when the user toggles location-services authorization
+  BackgroundGeolocation.on('providerchange', this.onProviderChange);
+
+  BackgroundGeolocation.ready({
+    desiredAccuracy: 0,
+    distanceFilter: 1,
+    stopTimeout: 1,
+    debug: true,
+    logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE,
+    stopOnTerminate: false,
+    startOnBoot: true,
+    url: 'https://streetfleet-mainserver.herokuapp.com/api/v1/vehicle/location',
+    batchSync: false,
+    autoSync: true,
+ }, (state) => {
+   if(!state.enabled) {
+     BackgroundGeolocation.start(function () {
+       console.log('Start success');
+     })
+   }
+ })
+}
+
+onLocation(location) {
+  console.log('location coords',location);
+}
+onError(error) {
+  console.log(error);
+}
+onActivityChange(activity) {
+  console.log('- [event] activitychange: ', activity);  // eg: 'on_foot', 'still', 'in_vehicle'
+}
+onProviderChange(provider) {
+  console.log('- [event] providerchange: ', provider);
+}
+onMotionChange(location) {
+  console.log('- [event] motionchange: ', location.isMoving, location);
+}
+
 postCoordinates() {
   fetch('https://streetfleet-mainserver.herokuapp.com/api/v1/vehicle/location',{
     method:'POST',

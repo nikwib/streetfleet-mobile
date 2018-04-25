@@ -708,7 +708,7 @@
         ]
     },
     {
-        "outputFile": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+        "outputFile": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
         "map": [
             {
                 "to": {
@@ -719,7 +719,7 @@
                     "endOffset": 218
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -738,7 +738,7 @@
                     "endOffset": 326
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -757,7 +757,7 @@
                     "endOffset": 449
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -776,7 +776,7 @@
                     "endOffset": 560
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -795,7 +795,7 @@
                     "endOffset": 677
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -814,7 +814,7 @@
                     "endOffset": 762
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -833,7 +833,7 @@
                     "endOffset": 867
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -852,7 +852,7 @@
                     "endOffset": 993
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -871,7 +871,7 @@
                     "endOffset": 1078
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -890,7 +890,7 @@
                     "endOffset": 1189
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -909,7 +909,7 @@
                     "endOffset": 1299
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -928,7 +928,7 @@
                     "endOffset": 1401
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -947,7 +947,7 @@
                     "endOffset": 1512
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -966,7 +966,7 @@
                     "endOffset": 1621
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -985,7 +985,7 @@
                     "endOffset": 1729
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1004,7 +1004,7 @@
                     "endOffset": 1852
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1023,7 +1023,7 @@
                     "endOffset": 1952
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1042,7 +1042,7 @@
                     "endOffset": 2065
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1061,7 +1061,7 @@
                     "endOffset": 2283
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -1080,7 +1080,7 @@
                     "endOffset": 2417
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1099,7 +1099,7 @@
                     "endOffset": 2530
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -1118,7 +1118,7 @@
                     "endOffset": 2770
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -1137,7 +1137,7 @@
                     "endOffset": 2897
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -1156,7 +1156,7 @@
                     "endOffset": 3045
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -1175,7 +1175,7 @@
                     "endOffset": 3179
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1194,7 +1194,7 @@
                     "endOffset": 3402
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1213,7 +1213,7 @@
                     "endOffset": 3650
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -1232,7 +1232,7 @@
                     "endOffset": 3760
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -1251,7 +1251,7 @@
                     "endOffset": 3961
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1270,7 +1270,7 @@
                     "endOffset": 4092
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1289,7 +1289,7 @@
                     "endOffset": 4329
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1308,7 +1308,7 @@
                     "endOffset": 4504
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1327,7 +1327,7 @@
                     "endOffset": 4603
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1346,7 +1346,7 @@
                     "endOffset": 4695
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1365,7 +1365,7 @@
                     "endOffset": 4807
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 0,
@@ -1384,7 +1384,7 @@
                     "endOffset": 4910
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.8.0/res/values-el/values.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.8.0/res/values-el/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1403,7 +1403,7 @@
                     "endOffset": 5011
                 },
                 "from": {
-                    "file": "/home/mpourbasililk/Documents/cw/streetfleet-mobile/mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
+                    "file": "/home/mpourbasililk/Documents/mobile1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-el/values-el.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
